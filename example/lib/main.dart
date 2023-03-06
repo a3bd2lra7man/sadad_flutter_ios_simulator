@@ -19,7 +19,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _result = 'Unknown';
-  final _sadadFlutterSdkPlugin = SadadFlutterIosSimulatorSdk();
+  final _sadadFlutterSdkPlugin = SadadFlutterSdk();
 
   @override
   void initState() {
