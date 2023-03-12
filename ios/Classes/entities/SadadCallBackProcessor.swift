@@ -20,9 +20,9 @@ class SadadTransactionCallBackProcessor{
             statusCode = DataDIC.value(forKey: "statusCode") as! Int
         }
         if let transferResponse = DataDIC.value(forKey: "data") as? NSDictionary{
-            let transectionSuccessfull = 3
-            if statusCode == 200{
-                var strTransectionID = "0"
+            let transectionSuccessfull = 3;
+            if statusCode == 200 {
+                var strTransectionID : String? = nil;
                 if(transferResponse.value(forKey: "invoicenumber") != nil){
                     strTransectionID = transferResponse.value(forKey: "invoicenumber") as! String
                 }else {
