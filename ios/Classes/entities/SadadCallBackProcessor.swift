@@ -45,11 +45,11 @@ class SadadTransactionCallBackProcessor{
                 }
 
             }else{
-                let sadadTransactionResult = SadadTransactionResult(SadadTransactionResultStatus.ApiField,"Failed to execute the transaction","nil3")
+                let sadadTransactionResult = SadadTransactionResult(SadadTransactionResultStatus.ApiField,"Failed to execute the transaction",nil)
                 self.onFailed(sadadTransactionResult);
             }
         }else{
-            let sadadTransactionResult = SadadTransactionResult(SadadTransactionResultStatus.ApiField,"Failed to execute the transaction","nil4")
+            let sadadTransactionResult = SadadTransactionResult(SadadTransactionResultStatus.ApiField,"Failed to execute the transaction",nil)
             self.onFailed(sadadTransactionResult);
         }
     }
