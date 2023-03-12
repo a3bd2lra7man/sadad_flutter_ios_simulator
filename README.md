@@ -19,7 +19,7 @@ Here's how:
 1. Add sadad_flutter_ios_simulator to your pubspec.yaml file:
 ```yaml
 dependencies:
-  sadad_flutter_ios_simulator: ^0.0.5
+  sadad_flutter_ios_simulator: ^0.0.7
 ```
 2. Import the package into your code:
 ```dart
