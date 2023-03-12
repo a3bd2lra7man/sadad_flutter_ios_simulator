@@ -1,5 +1,7 @@
 > **Warning:** The sadad_flutter_ios_simulator package is intended for testing purposes only and should not be used as a complete solution for integrating Sadad payments into your app. This package provides a simulator for the Sadad payment integration SDK on iOS, allowing you to test your app on an iOS simulator. However, if you want to deploy your app on an actual iOS device and provide a complete Sadad payment integration solution for your users, you should use the [sadad_flutter_sdk](https://pub.dev/packages/sadad_flutter_sdk) package instead.
- 
+
+<br>
+
 # Getting Started
 
 To use the Sadad Flutter plugin in your project, you'll need to create a Sadad account and integrate your backend  
@@ -10,6 +12,7 @@ Here's how:
 3. Obtain a transaction token from the Sadad server by calling the appropriate API endpoint from your backend **[See Application SDK Section](https://developer.sadad.qa)**
 
 ### Once you obtain the transaction token you are good to go
+<br>
 
 # Usage
 
