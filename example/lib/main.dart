@@ -34,13 +34,15 @@ class _MyAppState extends State<MyApp> {
         email: "a3bd2llah@gmail.com",
         mobileNumber: "97431487378",
         customerId: "123456789",
-        // TODO: PUT your token here
-        clientToken: "",
+        clientToken: "FJ632jDx8c15nEK4BAIvmnLumPphRZk2nRc5mcGxc8NG5hEfbebm2AVtiKg8XzsO",
         transactionAmount: "10000.0",
         orderItems: [const SadadOrderItem(name: "top up", quantity: 1, amount: 10000)],
         orderId: "123456789");
+
     try {
       result = await _sadadFlutterSdkPlugin.createTransaction(transaction) ?? 'Unknown platform version';
+      print("het");
+      print(result);
     } on PlatformException {
       result = 'Failed to get platform version.';
     }
